@@ -15,7 +15,7 @@ public class sampSqlite {
 		// TODO Auto-generated method stub
 		String dbname = "db/repo1.db";
 		createNewDB(dbname);
-		createNewTable(dbname);
+//		createNewTable(dbname);
 		insertRow(dbname);
 	}
 
@@ -81,7 +81,7 @@ public class sampSqlite {
                 stmt = conn.createStatement();
 
                 String sql = "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) " +
-                        "VALUES (5, 'Mark', 25, 'Rich-Mond ', 65000.00 );"; 
+                        "VALUES (6, 'Mark', 25, 'Rich-Mond ', 65000.00 );"; 
                 
                 stmt.executeUpdate(sql);
                 stmt.close();
