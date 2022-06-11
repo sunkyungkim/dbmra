@@ -81,7 +81,7 @@ public class sampSqlite {
                 stmt = conn.createStatement();
 
                 String sql = "INSERT INTO COMPANY (ID,NAME,AGE,ADDRESS,SALARY) " +
-                        "VALUES (6, 'Mark', 25, 'Rich-Mond ', 65000.00 );"; 
+                        "VALUES (7, 'Mark', 25, 'Rich-Mond ', 65000.00 );"; 
                 
                 stmt.executeUpdate(sql);
                 stmt.close();
