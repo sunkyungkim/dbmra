@@ -1,0 +1,10 @@
+test:
+  human:
+    # 주석
+    name: steven rogers
+    spec:
+      height: 183
+      weight: 90
+    nickname:
+      - captine america
+      - first avenger

@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="lib/sqlite-jdbc-3.36.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/git/repository/tool.db_mra/lib/snakeyaml-1.30.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

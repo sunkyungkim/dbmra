@@ -1,0 +1,48 @@
+name: DB Migration Assessment Tool Config File
+version: 1.0
+repo:
+  type: sqlite
+  dbfilename: mrarepo.db
+query:
+   -
+     dbmstype: oracle
+     sqlstmts:
+       - 
+         sqlname: session
+         sqlstmt: >
+           select *
+           from v$session
+       - 
+         sqlname: segment
+         sqlstmt: >
+           select *
+           from dba_segments
+   -
+     dbmstype: mysql
+     sqlstmts:
+       - 
+         sqlname: session
+         sqlstmt: >
+           select *
+           from v$session
+       - 
+         sqlname: segment
+         sqlstmt: >
+           select *
+           from dba_segments
+   -
+     dbmstype: mariadb
+     sqlstmts:
+       - 
+         sqlname: session
+         sqlstmt: >
+           select *
+           from v$session
+       - 
+         sqlname: segment
+         sqlstmt: >
+           select *
+           from dba_segments
+           
+           
+   
